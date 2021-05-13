@@ -1,0 +1,11 @@
+1.) SELECT * FROM actor WHERE first_name = 'John';
+2.) SELECT * FROM actor WHERE last_name = 'Neeson';
+3.) SELECT * FROM actor WHERE actor_id % 10 = 0;
+4.) SELECT description FROM film WHERE film_id = 100;
+A Beautiful Drama of a Dentist And a Composer who must Battle a Sumo Wrestler in The First Manned Space Station
+
+5.) SELECT * FROM film WHERE rating = 'R';
+6.) SELECT * FROM film WHERE rating = 'R';
+7.) SELECT title, length FROM film ORDER BY length ASC LIMIT 10;
+8.) SELECT title FROM film WHERE special_features LIKE 'Deleted Scenes';
+9.) SELECT title FROM film WHERE film_id LIKE (SELECT film_id from film_category WHERE category_id = 10);
